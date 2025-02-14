@@ -1,0 +1,50 @@
+[
+  {
+    "id": "phone_number",
+    "title": "Your Phone Number",
+    "subtitle": "We’ll use this to stay in touch",
+    "description": "Please enter your phone number.",
+    "required": true,
+    "components": {
+      "text_input": {
+        "id": "phone_number_input",
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number",
+        "required": true
+      }
+    }
+  },
+  {
+    "id": "favorite_hobby",
+    "title": "Your Favorite Hobby",
+    "subtitle": "Tell us what you enjoy the most",
+    "description": "Select your favorite hobby.",
+    "required": true,
+    "components": {
+      "select": {
+        "id": "hobby_selection",
+        "label": "Choose a hobby",
+        "placeholder": "Select one option",
+        "required": true,
+        "options": [
+          {
+            "id": "cinema",
+            "label": "Go to the movies"
+          },
+          {
+            "id": "watching_netflix",
+            "label": "Watching Netflix"
+          },
+          {
+            "id": "reading",
+            "label": "Reading"
+          },
+          {
+            "id": "music",
+            "label": "Listening to Music"
+          }
+        ]
+      }
+    }
+  }
+]
