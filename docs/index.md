@@ -17,11 +17,11 @@ Pronto, assim conseguiremos revisar sua entrega!
 O projeto foi construído com **[React Native](https://reactnative.dev/)** e utiliza **styled-components** para estilização.
 
 - A aplicação possui um **fluxo de perguntas**, que guia o usuário através de diferentes tipos de entrada para captação de informações.
-- Os componentes suportam **inputs de texto, selects, e toggles**, garantindo flexibilidade na coleta de dados.
+- Os componentes suportam **inputs de texto e select-options**, garantindo flexibilidade na coleta de dados.
 
 ## Tarefas
 
-O objetivo deste desafio é construir um **sistema dinâmico de quizzes**, baseado no arquivo JSON `questions.json`. O quiz deve permitir **fluxos flexíveis**, dependendo das respostas do usuário, e **adaptar dinamicamente as perguntas exibidas**.
+O objetivo deste desafio é construir um **sistema dinâmico de quizzes**, baseado no arquivo JSON `questions.json`. O quiz deve permitir **fluxos flexíveis**, dependendo das respostas do usuário, e **adaptar dinamicamente às perguntas exibidas**.
 
 ![Fluxograma do quiz](flow.png)
 
@@ -31,18 +31,18 @@ O objetivo deste desafio é construir um **sistema dinâmico de quizzes**, basea
 
 - [ ] **Construa o arquivo JSON conforme especificações**
 
-  - O seu sistema deve permitir que possamos fazer qualquer mudança ou incremento nesse fluxo com apenas edições deste arquivo JSON. Sendo assim, todas as configurações, regras de exibição condicionais e afins, devem estar necessariamente escritas nele.
+  - O seu sistema deve permitir que possamos fazer qualquer mudança ou incremento nesse fluxo com apenas edições deste arquivo JSON. Sendo assim, todas as configurações, regras de exibição, condicionais e afins, devem estar necessariamente escritas nele.
 
-- [ ] **Implemente as regras do arquivo JSON em tela**
+- [ ] **Implemente no aplicativo o fluxo de quizz baseado no protocolo descrito em JSON**
 
-  - Você deve implementar o que definiu no JSON, como funcionalidade do aplicativo.
+  - Você deve implementar o que definiu no JSON, como funcionalidade do aplicativo. Lembrando que a aplicação deve ser capaz de se comportar seguindo as infinitas possibilidades de fluxos no JSON, seguindo o protocolo criado por você.
 
 - [ ] **Crie um Stepper Dinâmico**
 
   - O Stepper deve:
     - Exibir **a posição atual** do usuário no quiz.
     - Exibir **quantas perguntas faltam** para finalizar.
-    - Se adaptar dinamicamente, **ocultando perguntas irrelevantes** conforme as respostas anteriores.
+    - Se adaptar dinamicamente, contabilizando quantos **passos já passaram** e uma previsão atual de **quantos passos faltam**.
 
 - [ ] **Capture e Exiba as Respostas**
 
@@ -68,14 +68,14 @@ O objetivo deste desafio é construir um **sistema dinâmico de quizzes**, basea
 
 ### **O que será avaliado?**
 
-- **Flexibilidade do código:** O quiz deve se adaptar dinamicamente ao JSON. Você deve deixar o JSON otimizado, e bem configurado. Faça as ajustes, condições e configurações e imaginando que futuramente mudaremos apenas o JSON para lançar novas perguntas.
+- **Flexibilidade do código:** O quiz deve se adaptar dinamicamente ao JSON. Você deve deixar o JSON otimizado, e bem configurado. Faça as ajustes, condições e configurações, imaginando que futuramente mudaremos apenas o JSON para lançar novos fluxos imagináveis.
 - **Uso adequado de estados:** O controle de navegação e respostas deve ser eficiente.
 - **Código organizado e reutilizável:** O projeto deve seguir boas práticas de desenvolvimento.
-- O usuário só irá avançar no stepper se clicar no botão.
+- A parte visual e de **interface não deve ser o foco** e, por isso, não há necessidade de investir tempo nela.
 
 ### **Sobre permissões e boa fé:**
 
-- Você pode instalar novas dependências nos projetos, via yarn.
+- Você pode instalar novas dependências nos projetos, via yarn. (porém, neste desafio, não deve ser necessário)
 - Você pode pesquisar na internet ou utilizar AI, como no dia-a-dia de um programador.
 - ⚠️ Lembre-se: esta é uma etapa assíncrona para avaliar **suas habilidades** e você será desclassificado se, posteriormente, identificarmos que não possui domínio sobre a sua entrega feita nesta etapa.
 
